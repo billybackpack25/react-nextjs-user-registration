@@ -1,30 +1,3 @@
-# User Registration
-
-## Run a next JS project
-
-`npm run dev`
-
-## Installs
-
-```bash
-npm install react-hook-form
-npm install --save react-google-recaptcha
-yarn add -D @testing-library/jest-dom @testing-library/react babel-jest jest # Testing
-```
-
-## Add Jest to Next.js
-
-https://www.kyrelldixon.com/blog/setup-jest-and-react-testing-library-with-nextjs
-
-## Form
-
-This is in index.tsx
-
-## Tests
-
-Validating input for the password, making sure it meets the complexity requirements
-
-```ts
 import React from 'react';
 import { render, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -59,4 +32,3 @@ test('it should vaildate complexity', async () => {
     });
     
 });
-```
